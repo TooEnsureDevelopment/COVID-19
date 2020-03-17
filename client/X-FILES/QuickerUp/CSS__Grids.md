@@ -141,6 +141,7 @@ Following SCSS code should look like:
 ```
 
 >IMG_Onlysytle
+![](../images/onlystyle.png)
 
 ## The Grid
 
