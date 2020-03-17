@@ -22,7 +22,7 @@ Close js window, only because we're not going to be using js.
 
 Also we're going to be using a "CSS Preprocessor" called "SASS".
 
-> Long as you know css is all that matters, Sass only makes CSS wayyyy easier to write. 
+> Long as you know CSS is all that matters, Sass only makes CSS wayyyy easier to write. 
 
 
 ## Getting Started
@@ -173,7 +173,7 @@ Here's how we can do that.
     }
 ```
 
->IMG__trngrid
+>IMG__3colimg
 
 > fr only stands for fractional unit and since two grid cells are set to 1fr they column will be set equal. 2fr will be double 1fr.
 
@@ -221,16 +221,18 @@ Right click the screen and click inspect the page. (Mines say "inspect Element")
 
 This will bring up fire-fox dev tools.
 
->IMG
+>IMG-inspctor
 
-Now if you find your element you'll see a small grid button.
+Now if you find the container class you'll see a small grid button.
 
 
->IMG
+>IMG-findclasstool
+
+Here you'll see small button with text grid.
 
 Click and watch a visual grid outline appear.
 
->IMG
+>IMG-clickgrid
 
 Ok look closely at the numbering.
 
@@ -261,7 +263,7 @@ We can move the element to ```grid-row: 1/2;```.
     }
 ```
 
->IMG
+>IMG-green1/2
 
 lol, There, how hard was that.
 
@@ -279,7 +281,7 @@ In fact, if we actually ment to position in the orange element, we get add ```gr
     }
 ```
 
->IMG
+>IMG-greeen3/4
 
 Lets also move the red item under the green item.
 
@@ -293,6 +295,8 @@ Lets also move the red item under the green item.
         ...
     }
 ```
+
+>img-red2/3
 
 **Spaning**
 
@@ -333,7 +337,7 @@ Great, what if we *Implicitly* set the "gray" item back to its position.
     }
 ```
 
->IMG
+>IMG-brown1/2
 
 I'm pretty sure you guessed it. The item is hidden behind the "brown" item.
 
@@ -351,7 +355,7 @@ Just to prove it we can span the "gray" item accross multiple columns.
 }
 ```
 
->IMG
+>IMG-gray1/2span
 
 Ok, even better there's a few ways we could of achieved this
 
@@ -369,11 +373,13 @@ For instance, if we move the color *red* item to ```grid-row: 4/5;```
 
 We have some availiable space.
 
+>img-AS
+
 By setting the *gray* item to ```grid-column: 1/ -1;```.
 
 It'll span accross the remainder of availiable space
 
-> IMG
+> IMG-red4
 
 > Now see what happins if you move the *red* item back.
 
