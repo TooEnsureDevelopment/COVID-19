@@ -18,7 +18,7 @@ You'll see three windows:
 
 Close js window, only because we're not going to be using js.
 
->IMG
+>Just slide the window
 
 Also we're going to be using a "CSS Preprocessor" called "SASS".
 
@@ -140,7 +140,6 @@ Following SCSS code should look like:
     }
 ```
 
->IMG_Onlysytle
 ![](../images/onlystyle.png)
 
 ## The Grid
@@ -174,7 +173,7 @@ Here's how we can do that.
     }
 ```
 
->IMG__3colimg
+![](../images/3colimg.png)
 
 > fr only stands for fractional unit and since two grid cells are set to 1fr they column will be set equal. 2fr will be double 1fr.
 
@@ -210,7 +209,8 @@ So just for the heck of it, lets define rows and also set each grid cell equal.
     }
 ```
 
->IMG__ gridrowcol
+![](../images/gridrowcol.png)
+
 
 You're probably curious. "Well, what if I want to implicitly position a element to a row without filling the column".
 
@@ -222,18 +222,17 @@ Right click the screen and click inspect the page. (Mines say "inspect Element")
 
 This will bring up fire-fox dev tools.
 
->IMG-inspctor
+![](../images/inspector.png)
 
 Now if you find the container class you'll see a small grid button.
 
-
->IMG-findclasstool
+![](../images/findclasstool.png)
 
 Here you'll see small button with text grid.
 
 Click and watch a visual grid outline appear.
 
->IMG-clickgrid
+![](../images/clickgrid.png)
 
 Ok look closely at the numbering.
 
@@ -264,7 +263,7 @@ We can move the element to ```grid-row: 1/2;```.
     }
 ```
 
->IMG-green1/2
+![](../images/green1:2.png)
 
 lol, There, how hard was that.
 
@@ -282,7 +281,7 @@ In fact, if we actually ment to position in the orange element, we get add ```gr
     }
 ```
 
->IMG-greeen3/4
+![](../images/green3:4.png)
 
 Lets also move the red item under the green item.
 
@@ -297,7 +296,7 @@ Lets also move the red item under the green item.
     }
 ```
 
->img-red2/3
+![](../images/red2:3:.png)
 
 **Spaning**
 
@@ -320,13 +319,11 @@ For instance, the "brown" item is currently has a Explicit position. (Unless you
 
 The "gray" item also hasn't been manually positioned.
 
->IMG
-
 Perhap we want to "Implicitly" position the "brown" item where the "gray" item is located.
 
 > I'll let you figure how to position them
 
->IMG
+![](../images/brown1:2.png)
 
 Great, what if we *Implicitly* set the "gray" item back to its position.
 
@@ -338,7 +335,7 @@ Great, what if we *Implicitly* set the "gray" item back to its position.
     }
 ```
 
->IMG-brown1/2
+![](../images/jj.png)
 
 I'm pretty sure you guessed it. The item is hidden behind the "brown" item.
 
@@ -356,7 +353,7 @@ Just to prove it we can span the "gray" item accross multiple columns.
 }
 ```
 
->IMG-gray1/2span
+![](../images/gray1:2span.png)
 
 Ok, even better there's a few ways we could of achieved this
 
@@ -374,13 +371,13 @@ For instance, if we move the color *red* item to ```grid-row: 4/5;```
 
 We have some availiable space.
 
->img-AS
+![](../images/red4:5.png)
 
 By setting the *gray* item to ```grid-column: 1/ -1;```.
 
 It'll span accross the remainder of availiable space
 
-> IMG-red4
+![](../images/-1span.png)
 
 > Now see what happins if you move the *red* item back.
 
