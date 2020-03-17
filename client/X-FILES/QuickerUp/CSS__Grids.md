@@ -390,4 +390,4 @@ thats really all for now, here go a challage so that you get use to the grid str
 Try and create this layout.
 
 
-
+![](../images/channlage.png)
